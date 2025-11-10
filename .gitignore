@@ -1,0 +1,110 @@
+# -----------------------------------
+# Node.js / JavaScript
+# -----------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.env
+.env.local
+.env.*.local
+
+# -----------------------------------
+# PHP
+# -----------------------------------
+vendor/
+composer.lock
+*.log
+
+# -----------------------------------
+# Python
+# -----------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+.env
+venv/
+ENV/
+env/
+.idea/
+*.egg-info/
+*.egg
+
+# -----------------------------------
+# Ruby / Jekyll
+# -----------------------------------
+.bundle/
+_site/
+.sass-cache/
+.jekyll-cache/
+
+# -----------------------------------
+# OS files
+# -----------------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# -----------------------------------
+# IDE / Editor files
+# -----------------------------------
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.idea/
+*.swp
+*.tmp
+
+# -----------------------------------
+# Logs and temporary files
+# -----------------------------------
+*.log
+*.tmp
+*.bak
+*.old
+*.swp
+*.pid
+*.seed
+
+# -----------------------------------
+# Certificates / keys
+# -----------------------------------
+*.pem
+*.key
+*.crt
+*.csr
+
+# -----------------------------------
+# Build and cache
+# -----------------------------------
+.cache/
+.tmp/
+.sass-cache/
+*.min.js
+*.min.css
+.bundle/
+dist/
+build/
+
+# -----------------------------------
+# Optional: OS-specific swap / lock files
+# -----------------------------------
+*.swo
+*.lock
+
+# -----------------------------------
+# Other sensitive files
+# -----------------------------------
+.env.local
+.env.*.local
+config.php
+database.php
+
+id_rsa*
+*.zip
